@@ -1,7 +1,7 @@
 const { PASSWORD } = require("../config/db.config");
 const db = require("../models");
 const User = db.users;
-const Op = db.Sequelize.Op;
+l
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 

@@ -6,6 +6,7 @@ import Signup from './components/signup';
 import Login from './components/login';
 import Posts from './components/posts';
 import Profile from './components/profile';
+import Post from './components/post';
 
 ReactDOM.render(
 
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Route path="/signup" element={<Signup />} />
       <Route path="/posts" element={<Posts />} />
       <Route path="/profile" element={<Profile />} />
+      <Route path="/post" element={<Post />} />
     </Routes> 
   </Router>,
   document.getElementById("root")
